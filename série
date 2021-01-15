@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>ORPHAN BLACK</h1>
+        <h2>Série Netflix préférée</h2>
+      <div> <img src = "OrphanBlack-Netflix-1.jpg"alt="image serie"></div>
+      <h2>Synopsis</h2>
+      <p>Marginale et orpheline, Sarah est témoin du suicide d'une femme. <br>Après réflexion,
+         elle décide de prendre l'identité de cette dernière, qui lui ressemble étonnamment.<br>
+          Elle découvre qu'elles sont en fait deux clones,<br> que d'autres existent et sont la cible d'un tueur qui tente de les éliminer une à une.</p>
+   <h2>Personnages</h2>
+         <div><img src ="image orphan.png"></div>
+         <h2>Saisons</h2>
+         <iframe id="serie1"
+         title="serie1"
+         width="300"
+         height="200"
+         src="https://www.allocine.fr/video/player_gen_cmedia=19513907&cserie=11450.html"></iframe>
+         <h3>Résumé saison 1</h3>
+         <iframe id="serie2"
+         title="serie2"
+         width="300"
+         height="200"
+         src="https://www.allocine.fr/series/ficheserie-11450/saison-22464/"></iframe>
+         <h3>Résumé saison 2</h3>
+         <iframe id="serie3"
+         title="serie3"
+         width="300"
+         height="200"
+         src="https://www.allocine.fr/series/ficheserie-11450/saison-24865/"></iframe>
+         <h3>Résumé saison 3</h3>
+
+         <h2>Nous contacter</h2>
+
+         <form action="écrire un message" method="post">
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+        </form>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+        
+    </body>
+    </html>
